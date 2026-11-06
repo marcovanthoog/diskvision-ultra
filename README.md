@@ -25,7 +25,7 @@ For too long, files have existed inside folders without a dedicated product laun
 
 No installer. No account. No subscription. No executable in this repository.
 
-> **This is a parody product page.** The entire “tool” consists of the two built-in commands below. They list the current folder; they do not analyse disk usage or scan your entire drive.
+> **This is a parody product page.** The entire “tool” consists of the built-in directory-listing commands below (plus a premium alias). They list the current folder; they do not analyse disk usage or scan your entire drive.
 
 ## Quick start
 
@@ -44,6 +44,18 @@ Open Command Prompt in the folder you want to inspect:
 ```cmd
 dir
 ```
+
+### Pro Edition
+
+*Less typing. Same files.*
+
+```powershell
+gci
+```
+
+`gci` is PowerShell’s built-in alias for `Get-ChildItem`. Three characters instead of twelve: **75% fewer typed characters**, with exactly the same functionality. This is a typing reduction, not a runtime speed claim.
+
+> We didn’t improve the command. We shortened the journey.
 
 That is the complete product. You have finished onboarding.
 
@@ -66,6 +78,8 @@ flowchart LR
     A[You] --> B{Strategic shell selection}
     B -->|Modern Experience| C[Get-ChildItem]
     B -->|Legacy Enterprise| D[dir]
+    B -->|Pro Edition| P[gci]
+    P --> C
     C --> E[Current folder]
     D --> E
     E --> F[Names on a screen]
@@ -74,24 +88,25 @@ flowchart LR
 
 <div align="center">
 
-*Seven diagram nodes of value. Two commands of implementation.*
+*Eight diagram nodes of value. Two commands. One premium alias.*
 
 </div>
 
 ## Choose your edition
 
-| | Modern Experience | Legacy Enterprise |
-| :--- | :---: | :---: |
-| Underlying technology | PowerShell | Command Prompt |
-| Command | `Get-ChildItem` | `dir` |
-| Lists files and folders | ✓ | ✓ |
-| Output | PowerShell objects, displayed as a table | Text |
-| Additional installation | None, when PowerShell is available | None, when CMD is available |
-| Mandatory cloud account | No | No |
-| Monthly fee | €0 | €0, but with more gravitas |
-| Premium support | Read the command again | Read the shorter command again |
+| | Modern Experience | Legacy Enterprise | Pro |
+| :--- | :---: | :---: | :---: |
+| Underlying technology | PowerShell | Command Prompt | Still PowerShell |
+| Command | `Get-ChildItem` | `dir` | `gci` |
+| Lists files and folders | ✓ | ✓ | ✓, professionally |
+| Output | PowerShell objects, displayed as a table | Text | The same PowerShell objects |
+| Typed characters | 12 | 3 | 3, but premium |
+| Additional installation | None, when PowerShell is available | None, when CMD is available | None, again |
+| Mandatory cloud account | No | No | Absolutely not |
+| Monthly fee | €0 | €0, but with more gravitas | €0 Pro Max |
+| Premium support | Read the command again | Read the shorter command again | We saved you nine characters |
 
-Both editions use their shell’s default behaviour. Formatting and the items shown can differ. Hidden/system items are not guaranteed to appear. Neither command above performs a recursive scan.
+All editions use their shell’s default behaviour. Formatting and the items shown can differ between shells. Hidden/system items are not guaranteed to appear. None of the listing commands above performs a recursive scan.
 
 ## Installation
 
@@ -114,28 +129,44 @@ No benchmarks were performed. Listing time depends on the directory, filesystem,
 - [x] Support folders containing files
 - [x] Add a second command and call it an edition
 - [x] Commission a banner larger than the implementation
+- [x] Launch Pro Edition: `gci` — fewer characters, more positioning
+- [ ] **Space Reclamation™** — turn directory awareness into directory absence
 - [ ] Evaluate whether scrolling counts as pagination
 - [ ] Resist the urge to add a subscription
 - [ ] Reach feature parity with the commands we already use
 
+### Coming eventually: Space Reclamation™
+
+*Don’t just discover your files. Discover life without them.*
+
+| Proposed edition | Underlying command | Strategic outcome |
+| :--- | :--- | :--- |
+| Modern Experience | `Remove-Item` in PowerShell | Fewer items to observe |
+| Legacy Enterprise | `del` in Windows CMD | Vintage file disappearance |
+| Pro | `ri`, a PowerShell alias for `Remove-Item` | Shorter command. Same consequences. |
+
+> **Destructive commands — roadmap joke only.** Unlike the listing commands, these commands can actually delete data and generally do not send it to the Recycle Bin. They are named here, not supplied as runnable deletion examples. No deletion feature, script or executable is included.
+
+Product status: **marketing complete; implementation intentionally absent.**
+
 ## Frequently anticipated questions
 
-**Does it use AI?**  
+**Does it use AI?**
 No. The filenames were there the whole time.
 
-**Can it tell me which folder is using all my disk space?**  
+**Can it tell me which folder is using all my disk space?**
 Not with these commands alone. This is a directory listing, not a disk-usage analyser.
 
-**Where is the download button?**  
+**Where is the download button?**
 We achieved zero-download distribution by not distributing an application.
 
-**Will this delete anything?**  
-These two commands list items; they do not delete them. Access errors may occur for folders you cannot read.
+**Will this delete anything?**
+The quick-start commands (`Get-ChildItem`, `dir` in CMD, and `gci`) only list items. Access errors may occur for folders you cannot read. The deletion commands named in the Space Reclamation roadmap are destructive and are not part of the quick start.
 
-**Why is the documentation longer than the software?**  
+**Why is the documentation longer than the software?**
 Enterprise readiness.
 
-**Is the ™ serious?**  
+**Is the ™ serious?**
 It is part of the joke. No trademark registration is claimed.
 
 ## Compatibility
@@ -158,7 +189,7 @@ Original repository content is available under the [MIT License](LICENSE).
 
 <div align="center">
 
-**DISKVISION ULTRA™**  
+**DISKVISION ULTRA™**
 *Your files. Finally visible.*
 
 <sub>No files were innovated upon during the making of this repository.</sub>

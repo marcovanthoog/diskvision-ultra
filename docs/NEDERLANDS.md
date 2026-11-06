@@ -22,6 +22,17 @@ Open de opdrachtprompt in de map die je wilt bekijken:
 dir
 ```
 
+## Pro Edition — minder typen, dezelfde bestanden
+
+```powershell
+gci
+```
+
+Dit is de ingebouwde PowerShell-alias voor `Get-ChildItem`: drie in plaats
+van twaalf tekens. **75% minder tekens typen**, geen snelheidswinst beloofd.
+
+*We hebben het commando niet verbeterd. We hebben de reis verkort.*
+
 Gefeliciteerd. Je bent nu gecertificeerd in het bekijken van bestandsnamen.
 Het certificaat bestaat niet, maar het gevoel mag er zijn.
 
@@ -38,6 +49,20 @@ Niets. Ook de Enterprise Edition niet. Die kijkt er alleen serieuzer bij.
 ## Wat wordt geïnstalleerd?
 
 Niets. Je hebt alleen PowerShell of de Windows-opdrachtprompt nodig.
-De opdrachten verwijderen of verplaatsen geen bestanden.
+De drie bovenstaande opdrachten verwijderen of verplaatsen geen bestanden.
+
+## Op de roadmap: Space Reclamation™
+
+*Ontdek niet alleen je bestanden. Ontdek het leven zonder je bestanden.*
+
+- **Modern Experience:** `Remove-Item` in PowerShell.
+- **Legacy Enterprise:** `del` in de Windows-opdrachtprompt.
+- **Pro:** `ri`, de PowerShell-alias voor `Remove-Item`.
+
+**Let op: deze roadmap-commando’s kunnen daadwerkelijk gegevens verwijderen,
+doorgaans zonder prullenbak.** Dit is alleen een aankondiging als grap, geen
+verwijderhandleiding. De repository bevat geen verwijderfunctie of scripts.
+
+Status: marketing afgerond, implementatie bewust afwezig.
 
 [Terug naar de indrukwekkende productpresentatie](../README.md)
