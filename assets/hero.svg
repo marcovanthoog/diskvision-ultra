@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">DiskVision Ultra — Your files. Finally visible.</title>
+  <desc id="desc">A mint, violet and midnight product banner for a parody directory-listing tool. A terminal shows Get-ChildItem and dir. Two commands. Zero installation.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a101c"/><stop offset="1" stop-color="#17132b"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#7ce8bf"/><stop offset="1" stop-color="#9caeff"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#7ce8bf" stop-opacity=".13"/><stop offset="1" stop-color="#7ce8bf" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#9caeff" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="1280" height="640" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="640" rx="24" fill="url(#grid)"/>
+  <ellipse cx="970" cy="290" rx="380" ry="330" fill="url(#glow)"/>
+  <path d="M48 1h1184" stroke="url(#accent)" stroke-width="2" opacity=".7"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <rect x="64" y="62" width="300" height="32" rx="16" fill="#172e2b" stroke="#7ce8bf" stroke-opacity=".28"/>
+    <circle cx="83" cy="78" r="4" fill="#7ce8bf"/>
+    <text x="97" y="83" font-size="11" letter-spacing="2" fill="#a8f1d7">NEXT-GEN DIRECTORY AWARENESS</text>
+    <text x="60" y="206" font-size="80" font-weight="750" letter-spacing="-4" fill="#f3f5fa">DiskVision</text>
+    <text x="62" y="283" font-size="76" font-weight="750" letter-spacing="-3" fill="url(#accent)">Ultra<tspan font-size="26" baseline-shift="super">™</tspan></text>
+    <text x="66" y="339" font-size="28" fill="#d3dae8">Your files. Finally visible.</text>
+    <text x="66" y="386" font-size="17" fill="#8d9cb1">The future of looking at files is already installed.</text>
+    <rect x="66" y="426" width="184" height="46" rx="10" fill="url(#accent)"/>
+    <text x="158" y="455" text-anchor="middle" font-size="15" font-weight="700" fill="#101a22">ZERO SETUP REQUIRED</text>
+    <text x="270" y="455" font-size="14" fill="#9baabd">No download. No drama.</text>
+    <g transform="translate(690 144)">
+      <rect x="10" y="12" width="512" height="314" rx="18" fill="#050911" opacity=".6"/>
+      <rect width="512" height="314" rx="18" fill="#101722" stroke="#344253"/>
+      <path d="M0 49h512" stroke="#293544"/>
+      <circle cx="25" cy="25" r="5" fill="#f48484"/><circle cx="43" cy="25" r="5" fill="#f5ca7b"/><circle cx="61" cy="25" r="5" fill="#7ce8bf"/>
+      <text x="490" y="29" text-anchor="end" font-size="12" fill="#8294ab">THE ENTIRE TECHNOLOGY STACK</text>
+      <g font-family="Consolas,monospace">
+        <text x="30" y="94" font-size="12" fill="#8b9db5">MODERN EXPERIENCE EDITION</text>
+        <text x="30" y="132" font-size="28" fill="#7ce8bf">PS &gt; <tspan fill="#f0f4fc">Get-ChildItem</tspan></text>
+        <path d="M30 163h452" stroke="#263343"/>
+        <text x="30" y="198" font-size="12" fill="#8b9db5">LEGACY ENTERPRISE EDITION</text>
+        <text x="30" y="237" font-size="28" fill="#c4a5ff">C:\&gt; <tspan fill="#f0f4fc">dir</tspan></text>
+        <rect x="30" y="269" width="8" height="14" fill="#7ce8bf"/>
+        <text x="50" y="280" font-size="12" fill="#7b8ba2">Innovation complete.</text>
+      </g>
+    </g>
+    <path d="M66 522h1148" stroke="#2b3547"/>
+    <text x="66" y="561" font-size="12" letter-spacing="2" fill="#8a9bb1">2 COMMANDS</text>
+    <text x="273" y="561" font-size="12" letter-spacing="2" fill="#8a9bb1">0 DEPENDENCIES TO ADD</text>
+    <text x="590" y="561" font-size="12" letter-spacing="2" fill="#8a9bb1">100% UNNECESSARY BRANDING</text>
+    <text x="1214" y="601" text-anchor="end" font-size="12" fill="#67778e">A VERY SERIOUS PARODY · BY MARCO</text>
+  </g>
+</svg>
